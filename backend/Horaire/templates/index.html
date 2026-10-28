@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horaire</title>
+</head>
+<body>
+    <div class="dir">
+        <h1>liste des Horaire des cours</h1>
+
+        {% for semaines in semaine %}
+            {{ semaines.nom }}
+        {% endfor %}
+    </div>
+</body>
+</html>
